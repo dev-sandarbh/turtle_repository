@@ -5,7 +5,7 @@ step = 5
 #creating an object of turtle class
 demo = turtle.Turtle()
 # defining the color - it accepts common color names, rgb values and hex values
-# first arg in color fun is boundary color and second arg is fill color
+# first arg in color func is boundary color and second arg is fill color
 
 # demo.color("red","cyan")
 # demo.begin_fill()

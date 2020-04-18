@@ -1,6 +1,5 @@
 import turtle
 import random
-import math
 
 turtle.setup(800,600)
 wn = turtle.Screen()
@@ -10,7 +9,7 @@ wn.colormode(255)
 # let's make a function which takes two arguments one no of sides in polygon and second length of sides of the polygon; but remember that this function will draw a regular polygon
 
 def regularPolygon(side,length):
-    ''' this function draws a regular polygon of n sides and a fixed length both input by the user'''
+    ''' this function draws a regular polygon of n sides and a fixed length'''
     total = (side-2)*180
     one_angle = 180 - (total/side)
     bob = turtle.Turtle()
