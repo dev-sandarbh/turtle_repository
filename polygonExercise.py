@@ -16,7 +16,7 @@ def regularPolygon(side,length):
     bob = turtle.Turtle()
     bob.shape("turtle")
     # bob.shapesize(2,2,5)
-    bob.pensize(2)
+    bob.pensize(10)
     bob.pencolor("orange")
     bob.penup()
     bob.setpos(random.randint(-100,100),random.randint(-100,100))
